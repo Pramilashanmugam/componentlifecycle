@@ -4,6 +4,7 @@ import NavBarForm from './components/NavBarForm';
 import NavBarSimple from './components/NavBarSimple';
 import Sidebar from "./components/Sidebar";
 import Content from "./components/Content";
+import ControlledForm from './components/ControlledForm';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <NavBarChild />
       <NavBarForm />
       <NavBarSimple />
+      <ControlledForm />
     </div>
   );
 }
