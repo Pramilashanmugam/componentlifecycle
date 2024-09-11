@@ -58,8 +58,7 @@ export class ControlledForm extends Component {
                             id='id-category'
                             name="category"
                             value={this.state.category}
-                            id="id-category"
-                            name="category">
+                            >
                             <option value="website">Website issue</option>
                             <option value="order">Order issue</option>
                             <option value="general">General inquiry</option>
