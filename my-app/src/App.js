@@ -9,25 +9,31 @@ import css from './App.module.css';
 //import Content from "./components/Content";
 //import ControlledForm from './components/ControlledForm';
 //import ControlledFormHooks from './components/ControlledFormHooks';
-import UseStateWithArrays from './components/UseStateWithArrays';
+//import UseStateWithArrays from './components/UseStateWithArrays';
+//import UseStateWithObjects from './components/UseStateWithObjects';
+//import UseEffectCounter from './components/UseEffectCounter';
 //import UncontrolledForm from './components/UncontrolledForm';
+import ContentHooks from './components/ContentHooks';
 
 function App() {
   return (
     <div className={css.App}>
       {/* Uncomment and use these components as needed */}
-       {/*<Sidebar />
-      <Content /> 
+      {/*<Sidebar />
+      <Content />      
       <NavBarChild />
       <NavBarForm />
       <NavBarSimple />
      <ControlledForm /> 
       <UncontrolledForm />
       < SearchBar /> 
-      <ControlledFormHooks />*/}
-      <UseStateWithArrays />
+      <ControlledFormHooks />
+      <UseStateWithArrays /> 
+<UseStateWithObjects /> 
+      <UseEffectCounter />*/}
+      <ContentHooks />
 
-      </div>
+    </div>
   );
 }
 
