@@ -1,22 +1,28 @@
+import React from 'react';
 import css from './App.module.css';
-import NavBarChild from './components/NavBarChild';
-import NavBarForm from './components/NavBarForm';
-import NavBarSimple from './components/NavBarSimple';
-import Sidebar from "./components/Sidebar";
-import Content from "./components/Content";
-import ControlledForm from './components/ControlledForm';
+import SearchBar from './components/SearchBar';
+// Import other components as needed
+// import NavBarChild from './components/NavBarChild';
+// import NavBarForm from './components/NavBarForm';
+// import NavBarSimple from './components/NavBarSimple';
+// import Sidebar from "./components/Sidebar";
+// import Content from "./components/Content";
+// import ControlledForm from './components/ControlledForm';
+//import UncontrolledForm from './components/UncontrolledForm';
 
 function App() {
   return (
     <div className={css.App}>
-      {/* Add your components here */}
-      <Sidebar />
+      {/* Uncomment and use these components as needed */}
+      {/* <Sidebar />
       <Content /> 
       <NavBarChild />
       <NavBarForm />
       <NavBarSimple />
-      <ControlledForm />
-    </div>
+      <ControlledForm /> 
+      <UncontrolledForm /> */}
+      < SearchBar />
+      </div>
   );
 }
 
