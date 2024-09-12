@@ -13,7 +13,10 @@ import css from './App.module.css';
 //import UseStateWithObjects from './components/UseStateWithObjects';
 //import UseEffectCounter from './components/UseEffectCounter';
 //import UncontrolledForm from './components/UncontrolledForm';
-import ContentHooks from './components/ContentHooks';
+//import ContentHooks from './components/ContentHooks';
+//import HTTPPost from "./components/HTTPPost";
+//import HTTPRequests from "./components/HTTPRequests";
+import HTTPHooks from './components/HTTPHooks';
 
 function App() {
   return (
@@ -30,9 +33,11 @@ function App() {
       <ControlledFormHooks />
       <UseStateWithArrays /> 
 <UseStateWithObjects /> 
-      <UseEffectCounter />*/}
-      <ContentHooks />
-
+      <UseEffectCounter />
+      <HTTPPost /> 
+      <HTTPRequests /> */}
+      <HTTPHooks />
+      
     </div>
   );
 }
