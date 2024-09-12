@@ -16,7 +16,10 @@ import css from './App.module.css';
 //import ContentHooks from './components/ContentHooks';
 //import HTTPPost from "./components/HTTPPost";
 //import HTTPRequests from "./components/HTTPRequests";
-import HTTPHooks from './components/HTTPHooks';
+//import HTTPHooks from './components/HTTPHooks';
+//import ContentAPI from "./components/ContentAPI";
+import ContentAPIHooks from "./components/ContentAPIHooks";
+
 
 function App() {
   return (
@@ -35,9 +38,11 @@ function App() {
 <UseStateWithObjects /> 
       <UseEffectCounter />
       <HTTPPost /> 
-      <HTTPRequests /> */}
-      <HTTPHooks />
-      
+      <HTTPRequests /> 
+      <HTTPHooks /> 
+      <ContentAPI /> */}
+      <ContentAPIHooks />
+            
     </div>
   );
 }
